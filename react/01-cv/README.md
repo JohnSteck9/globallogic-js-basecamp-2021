@@ -1,4 +1,4 @@
-# [DEMO](hhttps://johnsteck9.github.io/globallogic-js-basecamp-2021/react/01-cv/build)
+# [DEMO](https://johnsteck9.github.io/globallogic-js-basecamp-2021/react/01-cv/build)
 
 # Getting Started with Create React App
 
