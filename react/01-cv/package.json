@@ -2,7 +2,7 @@
   "name": "01-cv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://JohnSteck9.github.io/globallogic-js-basecamp-2021/react/01-cv/build",
+  "homepage": "https://johnsteck9.github.io/globallogic-js-basecamp-2021/react/01-cv/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
