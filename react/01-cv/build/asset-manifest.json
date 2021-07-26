@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/globallogic-js-basecamp-2021/react/01-cv/build/static/css/main.0f349586.chunk.css",
+    "main.js": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/main.97742b20.chunk.js",
+    "main.js.map": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/main.97742b20.chunk.js.map",
+    "runtime-main.js": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/runtime-main.9c1c85d4.js",
+    "runtime-main.js.map": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/runtime-main.9c1c85d4.js.map",
+    "static/js/2.f321526f.chunk.js": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/2.f321526f.chunk.js",
+    "static/js/2.f321526f.chunk.js.map": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/2.f321526f.chunk.js.map",
+    "static/js/3.ff992169.chunk.js": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/3.ff992169.chunk.js",
+    "static/js/3.ff992169.chunk.js.map": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/3.ff992169.chunk.js.map",
+    "index.html": "/globallogic-js-basecamp-2021/react/01-cv/build/index.html",
+    "static/css/main.0f349586.chunk.css.map": "/globallogic-js-basecamp-2021/react/01-cv/build/static/css/main.0f349586.chunk.css.map",
+    "static/js/2.f321526f.chunk.js.LICENSE.txt": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/2.f321526f.chunk.js.LICENSE.txt",
+    "static/media/email.188e8bf1.svg": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/email.188e8bf1.svg",
+    "static/media/facebook-f.01036f9f.svg": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/facebook-f.01036f9f.svg",
+    "static/media/linkedin-in.aca3b522.svg": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/linkedin-in.aca3b522.svg",
+    "static/media/me.782a2934.jpg": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/me.782a2934.jpg",
+    "static/media/telegram-plane.be80886b.svg": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/telegram-plane.be80886b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c1c85d4.js",
+    "static/js/2.f321526f.chunk.js",
+    "static/css/main.0f349586.chunk.css",
+    "static/js/main.97742b20.chunk.js"
+  ]
+}
