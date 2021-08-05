@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin: 30px 0;
+    font-family: sans-serif;
+}
+
+.game {
+    margin: 0 auto;
+    width: 310px;
+    text-align: center;
+
+    .cross,
+    .zero,
+    .square {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+    }
+
+    .cross,
+    .zero {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 86px;
+        line-height: 100px;
+        z-index: 15;
+    }
+
+    .cross {
+        color: red;
+        border: 1px solid red;
+    }
+    .zero {
+        color: blue;
+        border: 1px solid blue;
+    }
+    #game_field {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+
+        .square {
+            border: 1px solid grey;
+            background-color: rgba(0, 0, 0, 0.2);
+            z-index: 10;
+            &.hovered {
+                border: 3px solid black;
+
+                -webkit-box-shadow: 0px 0px 50px 10px rgba(34, 60, 80, 0.5)
+                    inset;
+                -moz-box-shadow: 0px 0px 50px 10px rgba(34, 60, 80, 0.5) inset;
+                box-shadow: 0px 0px 50px 10px rgba(34, 60, 80, 0.5) inset;
+            }
+            & > .cross,
+            & > .zero {
+                border: none;
+            }
+        }
+    }
+    button {
+        margin-top: 30px;
+        font-size: 14px;
+        width: 100px;
+        padding: 10px 6px;
+        font-weight: bold;
+        border-radius: 4px;
+    }
+}
+
+/* The alert message box */
+.alert {
+    position: fixed;
+    z-index: 100;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 20px;
+    background-color: #46aa17;
+    color: white;
+    margin-bottom: 15px;
+    /* The close button */
+.closeBtn {
+    margin-left: 15px;
+    color: rgb(68, 68, 68);
+    font-weight: bold;
+    float: right;
+    font-size: 30px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    /* When moving the mouse over the close button */
+    &:hover {
+        color: black;
+    }
+}
+}
+
