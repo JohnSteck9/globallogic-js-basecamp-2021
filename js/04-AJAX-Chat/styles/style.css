@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 30px 0;
+}
+
+h2 {
+  font-size: 18px;
+  background: #979393;
+}
+
+.container {
+  max-width: 1000px;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.container h2 {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  padding: 4px 0;
+}
+
+.container .chat,
+.container .users {
+  border-radius: 8px;
+  border: 2px solid #494949;
+}
+
+.container .chat {
+  width: 65%;
+}
+
+.container .chat .chat__block {
+  margin: 16px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .chat .chat__block .chat__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin: 0 14px;
+  width: 20%;
+  color: #363636;
+}
+
+.container .chat .chat__block .chat__logo img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.container .chat .chat__block .chat__text {
+  width: 80%;
+}
+
+.container .chat .chat__block .chat__text .chat__text_title {
+  font-weight: bold;
+}
+
+.container .chat .chat__block .chat__text .chat__text_text {
+  margin-top: 6px;
+}
+
+.container .users {
+  margin-left: 14px;
+  width: 35%;
+  padding-bottom: 20px;
+}
+
+.container .users .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 16px 6px;
+  border: 2px solid green;
+  border-radius: 4px;
+  padding: 4px;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.container .users .user #user__logo_box {
+  width: 20%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .users .user #user__logo_box .user__logo {
+  width: 100%;
+  border-radius: 50%;
+  padding: 18px 0;
+}
+
+.container .users .user .user__text_box {
+  padding-left: 10px;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .users .user .user__text_box #user__name {
+  text-align: left;
+  margin: 6px 0;
+  color: green;
+}
+
+.container .users .user .user__text_box .user__phone {
+  margin-top: 4px;
+}
+
+.container .users .btn__add-user {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 24px;
+  font-size: 16px;
+  background-color: #4960e0;
+  color: black;
+  border: 1px solid #252f69;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
